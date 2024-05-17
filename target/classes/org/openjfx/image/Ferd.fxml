@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.FerdController">
+   <children>
+      <AnchorPane prefHeight="67.0" prefWidth="1000.0" style="-fx-background-color: #FF8F40;">
+         <children>
+            <Button layoutX="903.0" layoutY="18.0" mnemonicParsing="false" onAction="#switchToBack" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: #FFAD73;" text="Назад">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button layoutX="673.0" layoutY="381.0" mnemonicParsing="false" onAction="#ror" prefHeight="44.0" prefWidth="83.0" text="вкл" />
+      <Button layoutX="836.0" layoutY="381.0" mnemonicParsing="false" onAction="#rory" prefHeight="44.0" prefWidth="83.0" text="выкл" />
+      <Circle fx:id="cir1" fill="DODGERBLUE" layoutX="712.0" layoutY="165.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir2" fill="DODGERBLUE" layoutX="768.0" layoutY="215.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir3" fill="DODGERBLUE" layoutX="883.0" layoutY="165.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir4" fill="DODGERBLUE" layoutX="825.0" layoutY="215.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir5" fill="DODGERBLUE" layoutX="712.0" layoutY="215.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir6" fill="DODGERBLUE" layoutX="825.0" layoutY="165.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir7" fill="DODGERBLUE" layoutX="768.0" layoutY="165.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir8" fill="DODGERBLUE" layoutX="767.0" layoutY="263.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir9" fill="DODGERBLUE" layoutX="712.0" layoutY="262.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir10" fill="DODGERBLUE" layoutX="883.0" layoutY="215.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir12" fill="DODGERBLUE" layoutX="712.0" layoutY="312.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir13" fill="DODGERBLUE" layoutX="883.0" layoutY="262.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir14" fill="DODGERBLUE" layoutX="825.0" layoutY="262.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir15" fill="DODGERBLUE" layoutX="883.0" layoutY="312.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir16" fill="DODGERBLUE" layoutX="825.0" layoutY="312.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir11" fill="DODGERBLUE" layoutX="768.0" layoutY="312.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text layoutX="37.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ΔT= Q ⁄ (m × C)&#10;где ΔT  - есть изменение температуры выраженное в градусах Цельсия,&#10;m - масса газа в килограммах,&#10;С - теплоемкость&#10;Q - переданная при его нагреве энергия, выраженная в Джоулях.">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="282.0" fitWidth="482.0" layoutX="27.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Скриншот%2022-04-2024%20181315.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="temrecha" layoutX="758.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="t= 0" wrappingWidth="122.6015625">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

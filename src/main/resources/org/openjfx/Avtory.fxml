@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.F">
+   <children>
+      <AnchorPane prefHeight="77.0" prefWidth="1000.0" style="-fx-background-color: #FF8F40;">
+         <children>
+            <Button layoutX="903.0" layoutY="21.0" mnemonicParsing="false" onAction="#switchToBack" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: #FFAD73;" text="Назад">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Text layoutX="428.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Авторы">
+               <font>
+                  <Font name="System Bold" size="38.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="254.0" fitWidth="232.0" layoutX="90.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Мое%20фото.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="200.0" layoutX="735.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/1_4.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="742.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Иван Усенков Алексеевич ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="50.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Эдуард Владимирович Карпович">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="75.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кандидат технологических наук &#10;учитель по физики" />
+      <Text layoutX="796.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ученик 9 класса" />
+      <Text layoutX="291.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Электронное пособие предназначено для:">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text layoutX="269.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="· Визуализация механизмов фазовых переходов">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="269.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="· Самообразование по физике">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="269.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="· Системы дистанционного обучения">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="341.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ⓡ Все права защищены , 2024">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="341.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© Карпович Э.В. , 2024">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="341.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© Усенков И.А. , 2024">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="422.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Орел ,2024">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

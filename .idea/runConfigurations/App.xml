@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="App" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+    <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+    <option name="MAIN_CLASS_NAME" value="org.openjfx.App" />
+    <module name="FiSiKa" />
+    <option name="VM_PARAMETERS" value=" --module-path &quot;c:\javafx\javafx-sdk-21.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml " />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.SecondaryController">
+   <children>
+      <AnchorPane prefHeight="54.0" prefWidth="1000.0" style="-fx-background-color: #FF8F40;">
+         <children>
+            <Text layoutX="190.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="АГРЕГАТНЫЕ СОСТОЯНИЯ ВЕЩЕСТВА" wrappingWidth="621.0">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Text>
+            <Button layoutX="903.0" layoutY="8.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: #FFAD73;" text="Назад" onAction="#switchToBack">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button layoutX="890.0" layoutY="443.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: #FFAD73;" text=" →" onAction="#switchToNext">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="137.0" fitWidth="172.0" layoutX="773.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/1568798012_water.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="123.0" fitWidth="172.0" layoutX="760.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/9a47df8f608b969abc6d937c80f9bf54.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="115.0" fitWidth="182.0" layoutX="574.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/kartinki-led-53.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="14.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Лед, вода и водяной пар — это три агрегатных состояния одного вещества. Лед —&#10;твердое состояние, вода — жидкое, пар — газообразное. Для любого вещества&#10;существуют три состояния.&#10;Твердое состояние. Его очень легко представить — это любой предмет, который мы&#10;встречаем в жизни. В этом состоянии тело сохраняет форму и объем. Расстояние&#10;между молекулами приблизительно равно размеру самих молекул, которые, в свою&#10;очередь, расположены очень структурированно. Такая структура называется&#10;кристаллической решеткой — из-за четкой структуры молекулам сложно двигаться, и&#10;они просто колеблются около своих положений равновесия.&#10;Жидкое состояние. В этом состоянии сохраняется объем, но не сохраняется форма.&#10;Например, если перелить воду из кувшина в стакан, то вода, имевшая форму кувшина,&#10;примет форму стакана. Расстояние между молекулами в жидком состоянии чуть&#10;больше, чем в твердом, но все равно невелико. При этом частицы не собраны в&#10;кристаллическую решетку, а расположены хаотично. Молекулы медленно двигаются,&#10;но при нагревании жидкости их движение становится все более интенсивным.&#10;Газообразное состояние. В жизни мы встречаем газообразное состояние вещества,&#10;когда чувствуем запахи. Запах очень легко распространяется, потому что газ не имеет&#10;ни формы, ни объема (он занимает весь предоставленный ему объем), состоит из&#10;хаотично движущихся молекул, расстояние между которыми много больше, чем&#10;размеры самих молекул">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

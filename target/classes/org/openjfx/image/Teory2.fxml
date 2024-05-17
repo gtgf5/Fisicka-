@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.TeoryController">
+   <children>
+      <AnchorPane prefHeight="67.0" prefWidth="1000.0" style="-fx-background-color: #FF8F40;">
+         <children>
+            <Text layoutX="110.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="                 Графики фазовых переходов" wrappingWidth="780.0">
+               <font>
+                  <Font name="System Bold" size="34.0" />
+               </font>
+            </Text>
+            <Button layoutX="903.0" layoutY="16.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: #FFAD73;" text="Назад" onAction="#switchToBack">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="307.0" fitWidth="468.0" layoutX="545.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Скриншот%2022-04-2024%20181315.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="14.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Если изобразить процессы превращения льда в воду, воды — в пар, и обратные&#10;действия, то мы получим графики фазовых переходов.&#10;Рассмотрим каждый участок графиков.&#10;AB — нагревание льда.&#10;Сначала взяли лед, конечно, при отрицательной температуре, потому что при нуле лед&#10;начинает плавиться. Нагрели лед до температуры плавления (до 0 градусов Цельсия).&#10;BC — плавление льда.&#10;После того, как лед нагрелся до температуры плавления, он начинает плавиться. В&#10;точке B это еще лед, а в точке C — уже вода. Плавление происходит при постоянной&#10;температуре и тем дольше длится, чем больше масса плавящегося вещества. Вся&#10;подводимая теплота (энергия) идет на разрушение кристаллической решетки.&#10;CD — нагревание воды.&#10;Расплавленное вещество уже в жидком состоянии снова начинает нагреваться, и&#10;температура увеличивается, пока не достигает температуры кипения. В данном случае&#10;нагревается вода — это значит, что ее температура кипения равна 100 градусам&#10;Цельсия.&#10;DE — кипение (парообразование) воды.&#10;При 100 градусах вода кипит, пока не выкипит целиком. В данном случае процесс, как&#10;и плавление, происходит при постоянной температуре. Но парообразование нельзя&#10;путать с испарением, потому что парообразование происходит при конкретной&#10;температуре, а испарение — при любой." wrappingWidth="566.3759765625">
+         <font>
+            <Font size="11.0" />
+         </font></Text>
+      <Text layoutX="14.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EF — нагревание пара.&#10;Далее полученный пар нагревается, и получается перегретый пар, с помощью&#10;которого, например, вращаются турбины для выработки электроэнергии.&#10;FG — охлаждение пара.&#10;Первый шаг в обратную сторону — охлаждение пара до температуры кипения.&#10;GH — конденсация пара.&#10;Дойдя до температуры кипения (в данном случае 100 градусов), пар начинает&#10;переходить в жидкое состояние. Этот процесс также происходит при постоянной&#10;температуре.">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="411.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HI — охлаждение воды.&#10;Сконденсировавшись, вода охлаждается, пока не начнет замерзать.&#10;IK — кристаллизация воды.&#10;Кристаллизуется (замерзает) вода при той же температуре, что и плавится лед — 0&#10;градусов Цельсия. Кристаллизация также происходит при постоянной температуре,&#10;так как выделяется энергия при формировании кристаллической решетки.&#10;KL — охлаждение льда.&#10;После кристаллизации лед охлаждается.">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Button layoutX="903.0" layoutY="447.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: #FFAD73;" text=" →" onAction="#switchToNext">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

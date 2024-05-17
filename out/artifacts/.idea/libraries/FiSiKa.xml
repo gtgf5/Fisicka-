@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FiSiKa">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FiSiKa_jar/FiSiKa.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

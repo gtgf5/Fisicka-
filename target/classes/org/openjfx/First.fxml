@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.FirstController">
+   <children>
+      <AnchorPane prefHeight="67.0" prefWidth="1000.0" style="-fx-background-color: #FF8F40;">
+         <children>
+            <Button layoutX="903.0" layoutY="18.0" mnemonicParsing="false" onAction="#switchToBack" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: #FFAD73;" text="Назад">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button layoutX="673.0" layoutY="381.0" mnemonicParsing="false" onAction="#ror" prefHeight="44.0" prefWidth="83.0" text="вкл" />
+      <Button layoutX="836.0" layoutY="381.0" mnemonicParsing="false" onAction="#rory" prefHeight="44.0" prefWidth="83.0" text="выкл" />
+      <Circle fx:id="cir1" fill="DODGERBLUE" layoutX="712.0" layoutY="165.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir2" fill="DODGERBLUE" layoutX="768.0" layoutY="215.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir3" fill="DODGERBLUE" layoutX="883.0" layoutY="165.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir4" fill="DODGERBLUE" layoutX="825.0" layoutY="215.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir5" fill="DODGERBLUE" layoutX="712.0" layoutY="215.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir6" fill="DODGERBLUE" layoutX="825.0" layoutY="165.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir7" fill="DODGERBLUE" layoutX="768.0" layoutY="165.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir8" fill="DODGERBLUE" layoutX="767.0" layoutY="263.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir9" fill="DODGERBLUE" layoutX="712.0" layoutY="262.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir10" fill="DODGERBLUE" layoutX="883.0" layoutY="215.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir12" fill="DODGERBLUE" layoutX="712.0" layoutY="312.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir13" fill="DODGERBLUE" layoutX="883.0" layoutY="262.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir14" fill="DODGERBLUE" layoutX="825.0" layoutY="262.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir15" fill="DODGERBLUE" layoutX="883.0" layoutY="312.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir16" fill="DODGERBLUE" layoutX="825.0" layoutY="312.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir11" fill="DODGERBLUE" layoutX="768.0" layoutY="312.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line fx:id="l1" endX="-75.0" layoutX="827.0" layoutY="166.0" startX="-100.0" />
+      <Line fx:id="l2" endX="-75.0" layoutX="827.0" layoutY="215.0" startX="-100.0" />
+      <Line fx:id="l3" endX="-75.0" layoutX="827.0" layoutY="262.0" startX="-100.0" />
+      <Line fx:id="l4" endX="-75.0" layoutX="827.0" layoutY="312.0" startX="-100.0" />
+      <Line fx:id="l5" endX="-75.0" layoutX="885.0" layoutY="166.0" startX="-100.0" />
+      <Line fx:id="l6" endX="-75.0" layoutX="885.0" layoutY="215.0" startX="-100.0" />
+      <Line fx:id="l7" endX="-75.0" layoutX="885.0" layoutY="262.0" startX="-100.0" />
+      <Line fx:id="l8" endX="-75.0" layoutX="885.0" layoutY="312.0" startX="-100.0" />
+      <Line fx:id="l9" endX="-75.0" layoutX="942.0" layoutY="166.0" startX="-100.0" />
+      <Line fx:id="l10" endX="-75.0" layoutX="942.0" layoutY="215.0" startX="-100.0" />
+      <Line fx:id="l11" endX="-75.0" layoutX="942.0" layoutY="262.0" startX="-100.0" />
+      <Line fx:id="l12" endX="-75.0" layoutX="942.0" layoutY="312.0" startX="-100.0" />
+      <Line fx:id="l13" endX="-100.0" endY="-18.0" layoutX="813.0" layoutY="199.0" startX="-100.0" />
+      <Line fx:id="l14" endX="-100.0" endY="-18.0" layoutX="867.0" layoutY="199.0" startX="-100.0" />
+      <Line fx:id="l15" endX="-100.0" endY="-18.0" layoutX="925.0" layoutY="199.0" startX="-100.0" />
+      <Line fx:id="l16" endX="-100.0" endY="-18.0" layoutX="983.0" layoutY="199.0" startX="-100.0" />
+      <Line fx:id="l17" endX="-100.0" endY="-18.0" layoutX="812.0" layoutY="250.0" startX="-100.0" startY="-4.0" />
+      <Line fx:id="l18" endX="-100.0" endY="-18.0" layoutX="868.0" layoutY="248.0" startX="-100.0" startY="-2.0" />
+      <Line fx:id="l19" endX="-53.0" endY="-27.0" layoutX="878.0" layoutY="258.0" startX="-53.0" startY="-10.0" />
+      <Line fx:id="l20" endX="5.0" endY="-27.0" layoutX="878.0" layoutY="258.0" startX="5.0" startY="-12.0" />
+      <Line fx:id="l21" endX="-166.0" endY="38.0" layoutX="878.0" layoutY="258.0" startX="-166.0" startY="19.0" />
+      <Line fx:id="l22" endX="-166.0" endY="38.0" layoutX="934.0" layoutY="258.0" startX="-166.0" startY="19.0" />
+      <Line fx:id="l23" endX="-166.0" endY="38.0" layoutX="991.0" layoutY="258.0" startX="-166.0" startY="19.0" />
+      <Line fx:id="l24" endX="-166.0" endY="38.0" layoutX="1049.0" layoutY="258.0" startX="-166.0" startY="19.0" />
+      <Text layoutX="38.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Плавление Q = λm&#10;Кристаллизация Q = — λm &#10;Q — количество теплоты [Дж]&#10; λ — удельная теплота плавления вещества [Дж/кг] &#10;m — масса [кг].&#10;">
+         <font>
+            <Font size="16.0" />
+         </font></Text>
+      <ImageView fitHeight="282.0" fitWidth="482.0" layoutX="27.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Скриншот%2022-04-2024%20181315.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="temrecha" layoutX="758.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="t= 0" wrappingWidth="122.6015625">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.Teory2Controller">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="-1.0" prefHeight="67.0" prefWidth="1000.0" style="-fx-background-color: #FF8F40;">
+         <children>
+            <Button layoutX="903.0" layoutY="16.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: #FFAD73;" text="Назад" onAction="#switchToBack">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Text layoutX="14.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Нагревание: Q = cm(Тконечная − Тначальная)&#10;Охлаждение: Q = cm(Тначальная − Тконечная)&#10;где:&#10;Q — количество теплоты [Дж],&#10;c — удельная теплоемкость вещества [Дж/кг·˚C],&#10;m — масса [кг],&#10;Тконечная — конечная температура [˚C],&#10;Тначальная — начальная температура [˚C].&#10;Плавление: Q = λm&#10;Кристаллизация: Q = −λm&#10;где:&#10;Q — количество теплоты [Дж],&#10;λ — удельная теплота плавления вещества [Дж/кг],&#10;m — масса [кг].&#10;Парообразование: Q = Lm&#10;Конденсация: Q = −Lm&#10;где:&#10;Q — количество теплоты [Дж],&#10;L — удельная теплота парообразования вещества [Дж/кг],&#10;m — масса [кг]." wrappingWidth="327.3759765625">
+         <font>
+            <Font size="13.0" />
+         </font></Text>
+      <Text layoutX="448.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сублимация и десублимация с примерами">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="6.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Формулы для всех процессов" wrappingWidth="327.3759765625">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="448.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сублимация (возгонка) — переход из твердого состояния в газообразное, минуя жидкое.&#10;Десублимация — переход из газообразного состояния в твердое, минуя жидкое.&#10;Белье. Попробуйте повесить белье сушиться на улицу в мороз. Поскольку вода&#10;замерзает из-за низких температур, белье должно стать куском льда, но этого не&#10;происходит — оно становится абсолютно сухим. В данном процессе произошла&#10;возгонка молекул воды (сублимация).&#10;Принтеры. Цветные принтеры (только не лазерные) печатают путем сублимации. Вот&#10;как это работает: частицы краски быстро переходят из твердого состояния в&#10;газообразное и оседают на бумаге — так получается цветная картинка.&#10;Узоры зимой на окнах. Если вы решите проехаться зимой на автобусе, то увидите на&#10;стеклах чудесные узоры. Из-за огромной разницы температур на улице и в автобусе&#10;мы можем наблюдать процесс десублимации в виде красивых рисунков на стеклах.&#10;Иней образуется похожим способом — резкое похолодание приводит к десублимации&#10;воздуха." wrappingWidth="496.8046875">
+         <font>
+            <Font size="13.0" />
+         </font></Text>
+   </children>
+</AnchorPane>
